@@ -1,0 +1,7 @@
+.bg-topbar{
+  background-color: #bd4aeb;
+}
+
+.bg-gradient{
+  background: linear-gradient(to right,#bd4aeb, #e64aeb);
+}
