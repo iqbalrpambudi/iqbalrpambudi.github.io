@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7dc4f3f8ea.js" crossorigin="anonymous"></script>
+  
   <!-- Style -->
   <link rel="stylesheet" href="style.css">
   <title>Homepage</title>
@@ -24,13 +27,12 @@
           <a class="nav-link text-white" href="#">Tentang</a>
           <a class="nav-link text-white" href="#">Kontak</a>
           <a class="nav-link text-white" href="#">Sitemap</a>
-          <a class="nav-link text-white" href="#">Disabled</a>
         </div>
 
         <div class="navbar-nav">
-          <a class="nav-link text-white" href="#">Twitter</a>
-          <a class="nav-link text-white" href="#">Instagram</a>
-          <a class="nav-link text-white" href="#">Facebook</a>
+          <a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="nav-link text-white" href="#"><i class="fab fa-instagram"></i></a>
+          <a class="nav-link text-white" href="#"><i class="fab fa-facebook"></i></a>
         </div>
       </div>
     </div>
@@ -113,7 +115,7 @@
         <div class="col-lg-3">
           <div class="card"">
               <img src=" https://picsum.photos/300/200" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body pt-2">
               <p class="badge badge-danger">Tags</p>
               <h4 class="card-title">Judul Artikel Pilihan</h4>
             </div>
@@ -125,7 +127,7 @@
         <div class="col-lg-3">
           <div class="card"">
             <img src=" https://picsum.photos/300/200" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body pt-2">
               <p class="badge badge-danger">Tags</p>
               <h4 class="card-title">Judul Artikel Pilihan</h4>
             </div>
@@ -137,7 +139,7 @@
         <div class="col-lg-3">
           <div class="card"">
             <img src=" https://picsum.photos/300/200" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body pt-2">
               <p class="badge badge-danger">Tags</p>
               <h4 class="card-title">Judul Artikel Pilihan</h4>
             </div>
@@ -149,7 +151,7 @@
         <div class="col-lg-3">
           <div class="card"">
             <img src=" https://picsum.photos/300/200" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body pt-2">
               <p class="badge badge-danger">Tags</p>
               <h4 class="card-title">Judul Artikel Pilihan</h4>
             </div>
@@ -235,14 +237,44 @@
       <div class="card-header bg-gradient text-white">
         Top User
       </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Iqbal Pambudi</li>
-        <li class="list-group-item">Iqbal Pambudi</li>
-        <li class="list-group-item">Iqbal Pambudi</li>
-        <li class="list-group-item">Iqbal Pambudi</li>
-        <li class="list-group-item">Iqbal Pambudi</li>
-        <li class="list-group-item">Iqbal Pambudi</li>
-      </ul>
+      <div class="card-body">
+        
+        <div class="d-flex flex-row bd-highlight mb-3">
+          <img class="rounded-circle" src="https://picsum.photos/75" alt=""
+            style="max-width: 40px; max-height: 40px;">
+          <div class="ml-2">
+            <h6 class="m-0">Iqbal Pambudi</h6>
+            <small class="text-muted m-0">Universitas Amikom Yogyakarta</small>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row bd-highlight mb-3">
+          <img class="rounded-circle" src="https://picsum.photos/75" alt=""
+            style="max-width: 40px; max-height: 40px;">
+          <div class="ml-2">
+            <h6 class="m-0">Iqbal Pambudi</h6>
+            <small class="text-muted m-0">Universitas Amikom Yogyakarta</small>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row bd-highlight mb-3">
+          <img class="rounded-circle" src="https://picsum.photos/75" alt=""
+            style="max-width: 40px; max-height: 40px;">
+          <div class="ml-2">
+            <h6 class="m-0">Iqbal Pambudi</h6>
+            <small class="text-muted m-0">Universitas Amikom Yogyakarta</small>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row bd-highlight mb-3">
+          <img class="rounded-circle" src="https://picsum.photos/75" alt=""
+            style="max-width: 40px; max-height: 40px;">
+          <div class="ml-2">
+            <h6 class="m-0">Iqbal Pambudi</h6>
+            <small class="text-muted m-0">Universitas Amikom Yogyakarta</small>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="card mt-5" style="width: 18rem;">
@@ -295,7 +327,11 @@
       </div>
       <div class="col-lg-3">
         <h4>Follow Kami</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, illum.</p>
+        <div class="d-flex">
+          <a class="nav-link" href="#"><i class="fab fa-twitter fa-lg"></i></a>
+          <a class="nav-link" href="#"><i class="fab fa-instagram fa-lg"></i></a>
+          <a class="nav-link" href="#"><i class="fab fa-facebook fa-lg"></i></a>
+        </div>
       </div>
     </div>
   </div>
